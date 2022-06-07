@@ -1,5 +1,5 @@
 FileName, CommitSha
 D:\a\Azure-Sentinel\Azure-Sentinel\Solutions\Recorded Future\Playbooks\RecordedFuture-URL-Recent_Rep_by_Insikt_Group-IndicatorProcessor.json,
-D:\a\Azure-Sentinel\Azure-Sentinel\Solutions\Recorded Future\Playbooks\RecordedFuture-ImportToSentinel.json,
-D:\a\Azure-Sentinel\Azure-Sentinel\Solutions\Recorded Future\Playbooks\RecordedFuture-IOC_Enrichment-IP_Domain_URL_Hash.json,
 D:\a\Azure-Sentinel\Azure-Sentinel\Solutions\Recorded Future\Playbooks\RecordedFuture-IP-Actively_Comm_C2_Server-IndicatorProcessor.json,
+D:\a\Azure-Sentinel\Azure-Sentinel\Solutions\Recorded Future\Playbooks\RecordedFuture-IOC_Enrichment-IP_Domain_URL_Hash.json,
+D:\a\Azure-Sentinel\Azure-Sentinel\Solutions\Recorded Future\Playbooks\RecordedFuture-ImportToSentinel.json,

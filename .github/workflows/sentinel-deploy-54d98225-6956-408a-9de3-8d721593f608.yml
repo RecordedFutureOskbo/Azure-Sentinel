@@ -13,7 +13,7 @@ on:
   push:
     branches: [ RecordedFuturePOC ]
     paths:
-    - 'Solutions/Recorded Future/**'
+    - 'Solutions/Recorded Future/Workbooks/**'
     - '!.github/workflows/**'  # this filter prevents other workflow changes from triggering this workflow
     - '.github/workflows/sentinel-deploy-54d98225-6956-408a-9de3-8d721593f608.yml'
 
@@ -23,7 +23,7 @@ jobs:
     env:
       resourceGroupName: 'oskarfree'
       workspaceName: 'oskarfreerf'
-      directory: '${{ github.workspace }}/Solutions/Recorded Future'
+      directory: '${{ github.workspace }}/Solutions/Recorded Future/Workbooks'
       cloudEnv: 'AzureCloud'
       creds: ${{ secrets.AZURE_SENTINEL_CREDENTIALS_54d982256956408a9de38d721593f608 }}
       contentTypes: 'AnalyticsRule,Playbook,Workbook'
